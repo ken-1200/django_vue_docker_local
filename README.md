@@ -9,6 +9,8 @@
    `npm install vue-router`
    - Sassのインストール
    `npm install sass-loader node-sass`
+   - axiosのインストール
+   `npm install axios`
  - 実行に必要な環境
    - vue: 2.6.11
    - vuex: 3.5.1 
