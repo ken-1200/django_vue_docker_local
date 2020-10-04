@@ -13,5 +13,7 @@ WORKDIR /app
 ADD requirements.txt /app/
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
-RUN pip install django-rest-swagger
+RUN pip install djangorestframework==3.11.1
 RUN pip install -U drf-yasg
+RUN pip install django-cors-headers
+RUN pip install Pillow
