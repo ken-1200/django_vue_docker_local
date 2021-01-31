@@ -17,3 +17,4 @@ RUN pip install djangorestframework==3.11.1
 RUN pip install -U drf-yasg
 RUN pip install django-cors-headers
 RUN pip install Pillow
+RUN pip install drf-extra-fields
