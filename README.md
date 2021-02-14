@@ -1,5 +1,7 @@
 # django_vue_docker_local
-   - コンテナ
+   - コンテナ-Django
+   `docker-compose exec web bash`
+   - コンテナ-Vue
    `docker-compose exec vue_web sh`
    - 脆弱性の修正
    `npm audit fix`
